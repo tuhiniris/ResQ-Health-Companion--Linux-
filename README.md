@@ -33,7 +33,41 @@ _ **System Architecture:** _ A complete utilization of electronics, path-finding
 
 _ **Assistant &amp; User Interaction:** _ We have envisioned the system to interact with the user using limited voice-communication commands in real-time. The system will also be able to support the user&#39;s mental health with intelligent communications on demand. The system will also be able to spot abnormal events and report to a guardian registered on the system domain or health authorities, in case it detects the user to be in a difficult state, so as to ensure it remains valid for users of different age categories, preferable when deployed for a family.
 
-_ **Project Objectives for the Current Semester:** _ The blueprint of the model, and the electronic requirements is targeted to be completed by this current semester. The system integration and PCB Design, chassis selection and development of TTL-controlled Power electronics section will be targeted for this time-period.
+
+# Survey
+
+This report surveys, analyzes and provides valuable insights for the project &quot;Development of An Autonomous Healthcare Assistant&quot;, an autonomous system which is deemed to be capable of addressing to human healthcare needs and offer various handsfree features.
+
+So, various research was made into systems like this, and mostly, the ones deployed are in research and development stage, and includes extremely complex electronics and aren&#39;t in the production stage. Also, many systems were not capable of handsfree communication or motion in general.
+
+For our project, we have made best use of what we have available in stock, and most of the items like PCB were manually designed and soldered, and all the power-supply and filtering system were made by standard components like capacitors and buck/boost-converter modules.
+
+In our project, we have put effort and are addressing these issues, and mitigating a few difficulties that we faced during our current development stage, which we will discuss below.
+
+We faced a few challenges during this development phase for our project which are being addressed:
+
+- The unavailability of parts like LiDAR module, which was expensive, are being addressed with a 360Degree Ultrasonic Module Array, which is less accurate than the mentioned system.
+
+
+- For the project, we used a Raspberry Pi Model 3B+ with 1GB of RAM and we faced difficulties to make the &#39; **face\_recognition&#39;** library work smoothly on this hardware. We are addressing this hardware limitation by experimenting on human face-detection only using standard **&#39;open-cv&#39;** library using HaaR Cascades.
+
+- The medicine dispensing feature required powerful servo motors, generally used in mini-RC-Aero-planes and we are currently in the development stage for this feature.
+
+
+- There are intermittent WIFI Drops in regions of low signal when the robot starts moving due to the high inrush current to the wheel-motors. We are rectifying this issue currently.
+
+
+- All the handsfree features like medicine names, times, doctor appointments work smoothly and we are offering a smaller database for demonstration purpose, using a free instance of MongoDB Atlas deployed on the cloud and fetching it by simple voice authentication.
+
+Our system, when compared to current projects under research address a multitude of problems:
+
+ 1) Handsfree communication allows every user of any age group to interact comfortably with this device using simple voice commands
+
+2) Less development and manufacturing cost can give an end user significant benefit. The robot will cost less than a powerful smartphone in the market with all the sensors and better hardware like the Raspberry Pi 4 with 4GB or more RAM.
+
+3) Various iterations of the voice-recognition system may be built on the same hardware for various purposes, for example, in children hospital, there should be a different type of voice assistant put to use, in comparison to a elderly person&#39;s hospital or home.
+
+4) Emergency situation handling and general area patrolling systems will significantly boost the confidence of the users at home.
 
 
 # References
