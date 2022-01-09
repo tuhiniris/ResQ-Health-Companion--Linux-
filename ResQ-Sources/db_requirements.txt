@@ -1,0 +1,5 @@
+Name - PRE-REGISTERED
+ID - PRE-REGISTERED
+
+Medicine -> Can be updated with voice
+Time -> Can be updated with voice
