@@ -1,4 +1,5 @@
 # **Development of An Autonomous Healthcare Assistant**
+ResQ Health Companion
 
 **Under the Supervision of**
 
@@ -26,8 +27,6 @@ _ **Computer Vision &amp; Object Recognition:** _ An array of sensory feedback w
 
 _ **Medicine Dispensing and Time Management** _: Generally, to ensure good health and also, for patients recovering from an illness, the requirement to consume medicines on a scheduled routine is of vital importance. The ability to carry and dispense medicines [LX17], the ability to detect when quantity of stock is low and also to ensure easy programming by the user for restocking the items in an inbuilt storage system is necessary. The time management can be utilized by programming into the system once by an user through a WebGUI-based software running on the local network.
 
-## Abstract
-
 _ **Power Systems &amp; Electronics:** _ The system will be capable of carrying medium loads with a scale of economic factors in mind. Thereby, the mainboard requires custom application-specific design with embedded microcontrollers. A lead-acid battery will be adequate to power the motors that is proposed to be utilized. The system software will have an algorithm that will allow it to automatically notify the user and charge, while keeping alert of the surrounding. A standby mode will also be utilized to improve user runtime. The chassis heat management will be mitigated using custom cooling solutions.
 
 _ **System Architecture:** _ A complete utilization of electronics, path-finding algorithms [FINA89] and IOT Subsystems and Advanced Sensors is proposed to be utilized. The system is for use in medical domain so deployment will be possible upon successful reliability and stress-testing across a multitude of different environments.
@@ -36,7 +35,6 @@ _ **Assistant &amp; User Interaction:** _ We have envisioned the system to inter
 
 _ **Project Objectives for the Current Semester:** _ The blueprint of the model, and the electronic requirements is targeted to be completed by this current semester. The system integration and PCB Design, chassis selection and development of TTL-controlled Power electronics section will be targeted for this time-period.
 
-Abstract
 
 # References
 
