@@ -1,17 +1,5 @@
 # **Development of An Autonomous Healthcare Assistant**
 
-# **Abstract**
-
-# By
-
-**ADITYA KUNDU**
-
-**ENROLLMENT NO : 22019002002007**
-
-**TUHINADRI BANERJEE**
-
-**ENROLLMENT NO : 22019002002015**
-
 **Under the Supervision of**
 
 **PROF. TUFAN SAHA**
@@ -21,8 +9,6 @@
  Department of Computer Science &amp; Engineering Institute of Engineering and Management West Bengal, India
 
 **November, 2020**
-
-Abstract
 
 # Abstract
 
