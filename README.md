@@ -1,3 +1,13 @@
+**Steps to Install :**
+
+1) Clone the repository
+2) Go to ResQ-Sources
+3) Execute ResQ-Lite.py
+
+--: Manual Controls : DanceRobot.py
+--: You can call functions like forward,backward manually in this file or Add Keyboard Event-Bindings
+
+
 # **Development of An Autonomous Healthcare Assistant**
 ResQ Health Companion
 
